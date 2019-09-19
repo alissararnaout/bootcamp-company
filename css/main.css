@@ -1,3 +1,4 @@
+
 h1, h2 {
     font-family: 'Comfortaa', sans-serif;
 }
@@ -5,6 +6,7 @@ h1, h2 {
 body p, h3, h4, h5 {
     font-family: 'Comfortaa', sans-serif;
     color: black;
+    height: 100%;
 }
 
 
@@ -148,8 +150,12 @@ body p, h3, h4, h5 {
 }
 
 #contact {
-    min-height: 599px;
-    background: url(../img/imgbg.jpg) no-repeat;
+    min-height: 600px;
+    text-align: center;
+    position: relative;
+    margin-top: 0px;
+    left: 0px;
+    text-align: center;
 }
 
 #contact img {
@@ -160,6 +166,25 @@ body p, h3, h4, h5 {
     color: #ff8100;
     font-size: 16px;
     text-align: center;
+}
+
+#ourLoc {
+    z-index: 5;
+    position: absolute;
+    height: 100%;
+    width: 415px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.753);
+    text-align: center;
+}
+
+#ourLoc img {
+    padding-top: 20px;
+}
+
+#google_map {
+    clear: none;
+    z-index: -1;
 }
 
 
