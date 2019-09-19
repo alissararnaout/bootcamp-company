@@ -27,7 +27,7 @@ body p, h3, h4, h5 {
 }
 
 #homebg {
-    background: url(../assets/imgbg.jpg) no-repeat center;
+    background: url(../img/imgbg.jpg) no-repeat center;
     min-height: 667px;
     display: flexbox;
     text-align: center;
@@ -130,7 +130,7 @@ body p, h3, h4, h5 {
 
 #contact {
     min-height: 599px;
-    background: url(../assets/imgbg.jpg) no-repeat;
+    background: url(../img/imgbg.jpg) no-repeat;
 }
 
 #contact img {
