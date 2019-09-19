@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
   </head>
   <body>
+
+    <!-- START HOME-->
     <div class="row">
         <h1 class="hide">Home</h1>
         <div class="headerBar">
@@ -27,36 +29,57 @@
                 </div>
                 <div class="title-bar-title"></div>
               </div>
-              <div id="main-menu"><!--Open Burger Menu-->
+
+              <!-- NAV MENU -->
+            <div id="main-menu">
                 <ul id="menu">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Team</a></li>
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">TEAM</a></li>
+                  <li><a href="#">PORTFOLIO</a></li>
+                  <li><a href="#">CONTACT</a></li>
                 </ul>
-              </div><!--Close Burger Menu-->
+              </div>
             </nav>
+            <!--CLOSE NAV MENU-->
       </div>
     </div>
-      
-      <div class="row" id="homebg">
-        <h2 class="hide">Splash Page</h2>
-        <img src="img/whiteLogo.svg" class="splashLogo" alt="Logo">
-        <h2>hatching your ideas</h2>
-      </div>
 
-      <div class="row" id="about">
-          <h2 class="hide">About Section</h2>
-        <video autostart="false" width="340" controls>
+      <!-- SPLASH PAGE -->
+      <div class="row" id="homebg">
+        <div class="small-12 medium-12 large-12 columns">
+          <h2 class="hide">Splash Page</h2>
+          <img src="img/logo.png" class="splashLogo" alt="Logo">
+          <h2>hatching your ideas</h2>
+      </div>
+    </div>
+      <!-- END HOME-->
+
+
+      <!-- START ABOUT-->
+      <div class="row" id="about-video"> <!--video-->
+          <h2 class="hide">About</h2>
+
+          <div class="small-12 medium-12 large-12 columns">
+          <video autostart="false" width="340" controls>
           <source src="video/render.mp4" type="video/mp4">
         </video>
+      </div>
+      
+        <div class="row" id="about-info"> <!--info-->
+            <div class="small-9 small-offset-3 medium-8 medium-offset-4 large-8 large-offset-4 columns"></div>
+
         <img src="img/aboutHeading.svg">
         <p>Hatch is your one-stop for all things design. We take your idea and help your baby grow through learning, strategizing, planning, designing, developing and feedback. We believe in emotional branding, implementation and results so with that in mind, our team designs for people first.</p>
       </div>
+       <!-- END ABOUT-->
 
+
+
+    <!-- START SERVICES-->
       <div class="row" id="services">
-          <h2 class="hide">Services Section</h2>
+          <h2 class="hide">Services</h2>
+          
           <img src="img/servHeading.svg">
             <div class="servCont">
               <img src="img/icon_product.svg" alt="Product Packaging Image">
@@ -92,6 +115,7 @@
               </p>
             </div>
       </div>
+<!-- END SERVICES-->
 
       <div class="row" id="team">
           <h2 class="hide">Team Section</h2>
