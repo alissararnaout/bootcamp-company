@@ -1,0 +1,102 @@
+h1, h2 {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+body {
+    
+}
+
+
+.headerBar {
+    background-color: none;
+}
+
+.headerLogo {
+    padding-top: 21px;
+    padding-left: 18px;
+}
+
+.menu-icon {
+    margin-top: 21px;
+    margin-left: 18px;
+}
+
+.main-menu {
+    background-color: none !important; 
+}
+
+#homebg {
+    background: url(../assets/imgbg.jpg) no-repeat center;
+    height: 453px;
+}
+
+.splashLogo {
+    display: inline-block;
+    margin: auto;
+    padding-top: 77px;
+    align-content: center;
+}
+
+#homebg h2 {
+    text-align: center;
+    color: #fef324;
+    font-size: 22px;
+}
+
+#about {
+    min-height: 402px;
+    background-color: white;
+}
+
+#about img {
+    width: 84px;
+}
+
+#services {
+    min-height: 649px;
+    background-color:#f1f0b3;
+}
+
+#services img {
+    width: 84px;
+}
+
+##team {
+    min-height: 534px;
+    background-color: white;
+}
+
+#team img {
+    width: 84px;
+}
+
+#portfolio {
+    min-height: 350px;
+    background-color: #fef324;
+}
+
+#portfolio h2 {
+    font-size: 16px;
+    text-align: center;
+}
+
+#contact {
+    min-height: 599px;
+    background: url(../assets/imgbg.jpg) no-repeat;
+}
+
+#contact img {
+    width: 87px;
+}
+
+#contact h2 {
+    color: #ff8100;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+footer {
+    min-height: 100px;
+    background-color: black;
+}
