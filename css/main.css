@@ -139,6 +139,11 @@ body p, h3, h4, h5 {
     padding-top: 20px;
 }
 
+.teamCont {
+    width: 167px;
+    box-shadow: 5px 10px #888888;
+}
+
 #portfolio {
     min-height: 350px;
     background-color: #fef324;
