@@ -8,28 +8,80 @@ body p, h3, h4, h5 {
 }
 
 
+header {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+
 .headerBar {
-    background-color: none;
+    opacity: .8;
+    display: block;
+    position: relative;
+    padding: 0;
 }
 
-.headerLogo {
-    padding-top: 21px;
-    padding-left: 18px;
+
+/* image logo */
+#hatchLogo {
+    display: block;
+    max-width: 4%;
+    text-align: left;
+    float: left;
+    margin-top: 3%;
+    margin-right: 35%;
 }
 
-.menu-icon {
-    margin-top: 21px;
-    margin-left: 18px;
+/* text logo */
+#mainLogo {
+	display: block;
+    max-width: 20%;
+    text-align: center;
+    float: left;
+    margin-top: 3%;
 }
 
 .main-menu {
     background-color: none !important; 
+    display: block;
 }
+
+ .menu-icon {
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 3%;
+}
+
+.title-bar .title-bar-right{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    top: 0;
+}
+/* main menu detail */
+
+#menu {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+
+#menu li a
+{
+	display: block;
+    padding: 5px 0 5px 0;
+    background-color: white;
+    font-family: "Comfortaa";
+    color: orange;       /* color of the text */
+}
+/* nav ends */
+
+
 
 #homebg {
     background: url(../img/imgbg.jpg) no-repeat center;
     min-height: 667px;
-    display: flexbox;
     text-align: center;
 }
 
