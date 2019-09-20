@@ -38,6 +38,7 @@ body p, h3, h4, h5 {
 
 #splashPage h2 {
     color: #fef324;
+    font-weight: bold;
 }
 
 #logo {
@@ -259,3 +260,20 @@ footer {
         width: 150px;
     }
 }
+
+/* tablet */
+@media screen and (min-width: 40em) {
+    #logo {
+        width: 230px;
+        height: 240px;
+        margin-top: 170px;
+    }
+    #splashPage h2 {
+        font-size: 40px;
+    }
+    video {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 80%;
+    }
+ }
