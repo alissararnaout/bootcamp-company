@@ -272,7 +272,7 @@ footer {
 /* logo size can't smaller than */
     #hatchLogo {
         min-width: 15px;
-        margin-right: 30%;
+        margin-right: 37%;
     }
 
     #mainLogo {
@@ -292,6 +292,7 @@ footer {
     #mainLogo {
         margin-top: 3%;
         float: left;
+        
     }
 
       /* video controls for tablet */
@@ -321,7 +322,7 @@ footer {
 
 @media screen and (min-width: 64em) {  /* 1024px */
 #hatchLogo {
-    margin-right: 38%;
+    margin-right: 37%;
 }
 
 #mainLogo {
