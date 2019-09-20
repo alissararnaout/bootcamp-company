@@ -5,19 +5,19 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hatch</title>
-    <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/foundation.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body id="holoBody">
     <div class="row">
-        <h1 class="hide">Home</h1>
+        <h1 class="hide">Portfolio</h1>
         <div class="headerBar">
           <nav class="small-12">
             <h2 class="hide">Main Navigation</h2>
             <!--Logo-->
               <div class="float-left headerLogo">
-                  <img src="img/blockLogo.svg" width="10%" alt="Wollaston Logo" id="wollastonLogo">
+                  <img src="img/blockLogo.svg" width="10%" alt="Hatch Logo" id="hatchLogo">
               </div>
           
               <!--foundations code start-->
@@ -39,8 +39,88 @@
             </nav>
       </div>
     </div>
-      
-      
+      <section class="holoWrap">
+    <section class="row" id="slide1">
+      <img src="img/startScreen.png" alt="Holo">
+  </section>
+
+  <section class="row" id="slide2">
+    <img src="img/slide2.png" alt="about holo">
+  </section>
+
+  <section class="row" id="slide3">
+      <img src="img/holoInfo.png" alt="about holo">
+  </section>
+
+<section class="row" id="slide4">
+    <div class="large-12 columns">
+      <img src="img/diagramHolo.png" alt="Holo Diagram">
+    </div>
+  </section>
+
+    <section class="row" id="slide5">
+        <h2 class="hide">Features</h2>
+  
+        <section class="small-12 medium-3 large-3 columns services">
+        <img src="img/earbusHolo.jpg" alt="Ear Buds" class="icon">
+        </section>
+  
+        <section class="small-12 medium-3 large-3 columns services">
+            <img id="myimage" onclick="changeImage()" src="img/info1.png" class="icon">
+        </section>
+
+        <section class="small-12 medium-3 large-3 columns services">
+          <img src="img/volumeHolo.jpg" alt="Volume" class="icon">
+         </section>
+
+         <section class="small-12 medium-3 large-3 columns services">
+            <img id="myimage2" onclick="changeImage2()" src="img/info3.png" class="icon">
+        </section>
+      </section>
+
+    <div class="row large-12 columns" id="slide6">
+      <img src="img/mapHolo.png" alt="Holo map">
+    </div>
+    
+    <div class="row small-3 large-2 columns" id="slide7">
+      <img src="img/pckgHolo.png" alt="Holo Packaging">
+    </div>
+
+    <div class="row" id="slide8">
+      <h3 class="holoSub">Phone Screen</h3>
+      <p id="slide8t">Building Lexan’s phone required a whole new system. Therefore we couldn’t rely on traditional android or iPhone system builds and created our own operating system.
+          The layout mimicks other system layouts for easy user experience while incorporating the new technologies Holo has to offer.
+          
+          All renderings done in photoshop.</p>
+          <img src="img/holo_screens.png" alt="Screen Layout" id="layoutHolo">
+    </div>
+
+    <div class="row" id="slide9">
+      <h3 class="holoSub">Branding Features</h3>
+      <p class="holoText">Font Type</p>
+      <img src="img/typoHolo.png" alt="Text" id="typo">
+      <p class="holoText">Colour Scheme</p>
+      <img src="img/holoColours.png" alt="Brand Colours" id="colourSchemeHolo">
+    </div>
+
+    <div class="row" id="slide10">
+      <h3 class="holoSub">Brand Commercial</h3>
+      <p class="holoText1">A commercial to kick off the launch of Holo, focusing on its capabilities. </p>
+      <video width="90%" id="holoVid">
+        <!-- need multiple sorces to work cross browser-->
+        <!-- for older iOS devices, MP4 has to come first in the sources-->
+        <source src="video/holo.mp4" type="video/mp4">
+          Your browser doesn't support video.
+          <div id="controls">
+              <button><img src="img/pause.svg" width="40px"></button>
+              <button><img src="img/play.svg" width="40px"></button>
+              <button><img src="img/rewind.svg" width="40px"></button>
+                </div>
+      </video>
+    </div>
+
+  </section>
+
       <footer class="row">
         
 

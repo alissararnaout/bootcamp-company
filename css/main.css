@@ -167,3 +167,127 @@ footer {
     max-height: 100px;
     background-color: black;
 }
+
+
+
+/* Portfolio Page CSS Elements */
+
+
+#slide5 {
+    background-color: white;
+    margin-bottom: -15px;
+}
+
+
+.icon
+{
+	float: left;
+    margin: 20px;
+    max-width: 350px;
+}
+
+
+@media screen and (min-width: 10em) { 
+.icon {
+max-width: 280px;
+}
+}
+
+@media screen and (min-width: 40em) {
+    #services {
+        max-width: 100px;
+        }
+}
+
+@media screen and (min-width: 64em) { 
+    #slide5 {
+        max-width: 1024px;
+        }
+        }
+
+
+
+
+
+
+
+
+#slide8 {
+    background-color: #e7e7e7;
+}
+
+#slide8 h3 {
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+    font-size: 30px;
+    
+}
+
+#slide8t {
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#slide9 {
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+#slide9 h3 {
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+#slide10 h3 {
+    color: white;
+}
+
+#slide10 {
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(2,2,40,1) 54%, rgba(0,169,236,1) 100%);
+padding-top: 30px;
+}
+
+.holoText1 {
+    color: white;
+    margin-left: 20px;
+}
+
+#layoutHolo {
+    box-align: center;
+    margin-left: 2%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.holoSub {
+    color: black;
+    margin-left: 20px;
+    font-size: 140%;
+    margin-bottom: 30px;
+}
+
+.holoText {
+    font-style: arial;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#colourSchemeHolo {
+    align-content: center;
+}
+
+#typo {
+    align-content: center;
+    margin-right: 20px;
+    margin-bottom: 40px
+}
+
+video {
+    align-content: center;
+}
+
