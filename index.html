@@ -1,14 +1,16 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hatch</title>
+    <title>Hatch Creative</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
   </head>
+
   <body>
     <h1 class="hide">Hatch</h1>
       <header id="mainHeader" class="row">
@@ -39,7 +41,7 @@
     <div class="row" id="splashPage">
       <h2 class="hide">Splash Page</h2>
       <div class="small-12 medium-12 large-12 columns">
-        <img src="img/logo.png">
+        <img src="img/whiteLogo.svg" id="logo">
         <h2>hatching your ideas</h2>
       </div>  
     </div>
@@ -55,12 +57,12 @@
 
       <!--About Info Page--> 
       <div class="row" id="aboutInfo">
-        <div class="small-4 medium-4 large-6 columns" >
-            <img src="img/heading_about.png" alt="">
+        <div class="small-3 medium-4 large-4 columns" >
+            <img src="img/heading_about.png" alt="About" class="aboutHead">
         </div>
 
-        <div class="small-8 medium-8 large-6 columns">
-          <p>Hatch is your one-stop for all tthings design. We take your idea and help your baby grow through learning, strategizing, planning, designing, developing and feedback. We believe in emotional branding, implementation and results so with that in mind, our team designs for people first. </p>
+        <div class="small-9 medium-8 large-8 columns">
+          <p class="aboutText">Hatch is your one-stop for all things design. We take your idea and help your baby grow through learning, strategizing, planning, designing, developing and feedback. We believe in emotional branding, implementation and results so with that in mind, our team designs for people first. </p>
         </div>
       
       </div>
@@ -68,43 +70,43 @@
       <!--Service Page--> 
       <div class="row" id="servPage">
 
-        <div class="small-12 medium-12 large-12 columns">
-          <img src="img/heading_services.png">
+        <div class="small-12 medium-12 large-12 columns product">
+          <img src="img/heading_services.png" class="servHead">
         </div>
 
 
-        <div class="small-12 medium-12 large-2 columns">
-          <img src="img/icon_product.svg"  width="25%">
+        <div class="small-12 medium-12 large-2 columns product">
+          <img src="img/icon_product.svg"  width="25%" class="icon">
           <h3>product &amp; packaging</h3>
           <p>We create concepts, develop mockups and create print-ready files for your product.</p>
         </div>
 
-        <div class="small-9 medium-8 large-2 columns">
-            <img src="img/icon_marketing.svg"  width="25%">
+        <div class="small-9 medium-8 large-2 columns product">
+            <img src="img/icon_marketing.svg"  width="25%" class="icon">
             <h3>marketing &amp; advertising graphics</h3>
             <p>We work with your head and marketing team to create assets for marketing strategies.
                 e.g. infographics, marketing templates, digital content
                 </p>
         </div>
 
-        <div class="small-9 medium-8 large-2 columns">
-            <img src="img/icon_visual.svg"  width="25%">
+        <div class="small-9 medium-8 large-2 columns product">
+            <img src="img/icon_visual.svg"  width="25%" class="icon">
             <h3>visual identity</h3>
             <p>We create the visual elements of your brand identity to communicate through images, shapes and colour.
                 e.g. logos, typography, brand guides
                 </p>
         </div>
 
-        <div class="small-9 medium-8 large-2 columns">
-            <img src="img/icon_art.svg"  width="25%">
+        <div class="small-9 medium-8 large-2 columns product">
+            <img src="img/icon_art.svg"  width="25%" class="icon">
             <h3>art &amp; illustration</h3>
             <p>Our graphic artists and illustrators communicate and solve problems by creating custom original artwork.
                 e.g. t-shirt design, motion graphics, stock images                
             </p>
         </div>
 
-        <div class="small-9 medium-8 large-2 columns">
-            <img src="img/icon_ui2.svg"  width="25%">
+        <div class="small-9 medium-8 large-2 columns product">
+            <img src="img/icon_ui2.svg"  width="25%" class="icon">
             <h3>user interface (UI)</h3>
             <p>We design a variety of interfaces and graphic elements with a user-first approach.
                 e.g. web design, theme design, app design
@@ -114,87 +116,130 @@
 
       <!--Team Page--> 
       <div class="row" id="teamPage">
-        <div class="small-8 medium-8 large-6 columns">
-          <p>Our tight-knit team includes strategists, illustrators, graphic designers, UI designers and developers who know what works and what doesn’t. We put soul into every creation.</p>
-          <img src="img/teamHeading.svg">
+          <div class="small-3 medium-4 large-4 columns">
+              <img src="img/teamHeading.svg" class="teamHead">
+              </div>
+        <div class="small-9 medium-8 large-8 columns" >
+          <p class="teamText">Our tight-knit team includes strategists, illustrators, graphic designers, UI designers and developers who know what works and what doesn’t. We put soul into every creation.</p>
         </div>
-        <div class="small-12 medium-3 large-4 columns">
-          <div class="small-3 teamCont">
-            <img src="img/team_courtney.JPG" alt="">
-          </div>
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
 
+
+        
+        <div class="small-12 medium-3 large-4 columns">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
         </div>
       </div>
 
       <!--Portfolio Page--> 
       <div class="row" id="folioPage">
         <div class="small-12 medium-12 large-12 columns">
+            <div class="w3-content w3-display-container"> <!--carousel-->
+
+                <div class="w3-display-container mySlides">
+                  <img src="img/portfolio_featured.png" style="width:100%">
+                  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+                    French Alps
+                  </div>
+                </div>
+                
+                <div class="w3-display-container mySlides">
+                  <img src="img/portfolio_apollo.png" style="width:100%">
+                  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+                    Northern Lights
+                  </div>
+                </div>
+                
+                <div class="w3-display-container mySlides">
+                  <img src="img/portfolio_rushpup.png" style="width:100%">
+                  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+                    Beautiful Mountains
+                  </div>
+                </div>
+                
+                <div class="w3-display-container mySlides">
+                  <img src="img/portfolio_vibe.png" style="width:100%">
+                  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+                    The Rain Forest
+                  </div>
+                </div>
+                
+                <div class="w3-display-container mySlides">
+                  <img src="img_mountains.jpg" style="width:100%">
+                  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+                    Mountains!
+                  </div>
+                </div>
+                
+                <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+                
+                </div>
+                
             <h3>ideas we've hatched</h3>
             <img> <!--carousel--> 
         </div>
       </div>
 
-
+      <!--Contact Page--> 
       <div class="row" id="contactPage">
           <div class="small-12 medium-12 large-12">
-            <img src="img/heading_contact.png">
+            <img src="img/heading_contact.png" class="contactHead">
             <h3>put your eggs in our basket</h3>
           </div>
+
           <form>
               <div class="grid-container">
                 <div class="grid-x grid-padding-x">
                   <div class="small-12 medium-6 large-6 cell">
                     <label>
-                      <input type="text" placeholder="company name">
+                      <input type="text" placeholder="my name is..." class="radius">
                     </label>
                     <label>
-                        <input type="text" placeholder="interested in">
+                        <input type="text" placeholder="interested in..." class="radius">
                       </label>
                       <div class="input-group">
-                          <span class="input-group-label">$</span>
-                          <input class="input-group-field" type="number">
+                          <span class="input-group-label">CAD$</span>
+                          <input class="input-group-field" type="number" placeholder="with a budget of...">
                         </div>
                   </div>
 
 
                   <div class="small-12 medium-6 large-6 cell">
                     <label>
-                      <input type="text" placeholder="email me at...">
+                      <input type="email" placeholder="email me at..." class="radius">
                     </label>
                     <label>
-                        <textarea placeholder="Message"></textarea>
+                        <textarea placeholder="project details..." class="radius"></textarea>
                       </label>
                   </div>
                  <div class="input-group-button">
-                      <input type="submit" class="button" value="Submit">
+                      <input type="submit" class="button" value="submit">
                 </div>
               </div>
            </form>
       </div>
 
-      <footer id="footerCon">
-          <div class="row">
-            <div class="small-3 medium-2 large-2 columns">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+      <!-- <footer>
+        <div class="row" id="footer">
+          <div class="small "></div>
+
+
+                <img src="img/socialFB.png" alt="Facebook">
+                <img src="img/socialTwitter.png" alt="Twitter">
+                <img src="img/socialIG.png" alt="Instagram">
             </div>
-
-            <div class="small-3 small-offset-9 medium-4 medium-offset-8 large-4 large-offset-4 columns">
-                <span>130 Dundas St,  London, ON N6A 1G2</span>
-                <span> hatchcreative@info.com</span>
-                <span>(519) 000-0000</span>
+                <p class="address">130 Dundas St,  London, ON N6A 1G2</p>
+                <p class="email"> hatchcreative@info.com</p>
+                <p class="number">(519) 000-0000</p>>
             </div>
-
-            <div class="small-3 medium-4 large-4 columns">
-                <span> © 2019 Hatch Creative. All Rights Reserved.</span>
-
+              <p class="copyright"> © 2019 Hatch Creative. All Rights Reserved.</p>
             </div>
           </div>
-        </footer>
+        </div>
+        </footer> -->
 
     
   </body>
