@@ -172,41 +172,34 @@ footer {
 
 /* Portfolio Page CSS Elements */
 
+#holoBody {
+    max-width: 1836px;
+    margin: 0 auto;
+}
 
 #slide5 {
     background-color: white;
-    margin-bottom: -15px;
 }
 
+#myimage {
+    width: 565px;
+}
+
+#myimage2 {
+    width:565px;
+}
+
+#slide6 {
+    clear:both;
+    width: 100%;
+}
 
 .icon
 {
-	float: left;
-    margin: 20px;
-    max-width: 350px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
-
-@media screen and (min-width: 10em) { 
-.icon {
-max-width: 280px;
-}
-}
-
-@media screen and (min-width: 40em) {
-    #services {
-        max-width: 100px;
-        }
-}
-
-@media screen and (min-width: 64em) { 
-    #slide5 {
-        max-width: 1024px;
-        }
-        }
-
-
-
 
 
 
@@ -288,6 +281,69 @@ padding-top: 30px;
 }
 
 video {
-    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
 }
 
+@media screen and (min-width: 30em) { 
+    .icon {
+        max-width: 180px;
+        margin-left: 10px;
+
+        }
+        }
+
+@media screen and (min-width: 38.75em) { 
+    
+    .icon {
+                max-width: 100px;
+                margin-left: 10px;
+            }
+            }
+
+                        @media screen and (min-width: 40em) { 
+                            .icon {
+                                max-width: 125px;
+                                margin-left: 30px;
+                                }
+                
+
+                                }      
+
+                                @media screen and (min-width: 50em) { 
+                                    .icon {
+                                        max-width: 175px;
+                                        margin-left: 30px;
+                                        }
+                                        }
+                
+                                        @media screen and (min-width: 60em) { 
+                                            .icon {
+                                                max-width: 190x;
+                                                margin-left: 60px;
+                                                }
+                                                }                        
+
+                    
+
+                                                @media screen and (min-width: 66em) {  /* 1024px */
+                                                    .icon {
+                                                        max-width: 200px;
+                                                        margin-left: 50px;
+                                                        }
+                                                }
+
+                                                @media screen and (min-width: 70em) {  /* 1024px */
+                                                    .icon {
+                                                        max-width: 200px;
+                                                        margin-left: 40px;
+                                                        }
+                                                }
+
+                                                @media screen and (min-width: 75em) {  /* 1024px */
+                                                    .icon {
+                                                        max-width: 250px;
+                                                        
+                                                }
