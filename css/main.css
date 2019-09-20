@@ -226,30 +226,31 @@ footer {
     }
 
     #teamDesc {
-        margin: 0 auto;
         border-style: none;
         margin-bottom: 20px;
+        text-align: center;
     }
 
     .teamImg {
-        width: 50%;
-        float: left;
-        background: white;
-        padding-bottom: 35px;
+        width: 150px;
+        padding-bottom: 30px;
+        padding-right: 15px;
     }
 
     #folioPage {
-        margin-top: 400px;
-        height: 400px;
-        padding-top: 120px;
+        height: 330px;
+        padding-top: 30px;
     }
 
     #folioPage h3 {
         font-size: 20px;
     }
 
-    #folioPage img {
-        width: 75%;
+    #folio1 {
+        width: 200px;
+        margin: 0 auto;
+        display: block; 
+        padding-bottom: 100px;
     }
 
     #contactPage {
@@ -304,7 +305,7 @@ footer {
         margin-right: 30px;
     }
     .aboutText {
-        font-size: 13px;
+        font-size: 15px;
         padding-top: 50px;
     }
     #aboutInfo {
@@ -339,21 +340,126 @@ footer {
     
     #teamInfo {
         padding: 30px;
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
 
     .teamHead {
         width: 200px;
         height: 215px;
+        margin-left: 15px;
     }
     .teamText {
-        font-size: 13px;
-        padding-top: 50px;
+        font-size: 15px;
+        padding-top: 70px;
+    }
+
+    #teamDesc {
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: center;
+    }
+
+    .teamImg {
+        width: 150px;
+        padding-right: 10px;
     }
 
     #folioPage {
-        padding: 20px;
+        padding-top: 50px;
+    }
+    #folio1 {
+        width: 300px;
+        margin: 0 auto;
+        display: block; 
     }
 
-
+    #contactPage {
+        padding: 20px;
+        padding-top: 30px;
+    }
+    .contactHead {
+        width: 200px;
+        height: 215px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    #contactPage h3 {
+        color: #ff8100;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .radius {
+        border-radius: 5px;
+    }
+    .input-group-button {
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .button {
+        border-radius: 5px;
+        margin: 0 auto;
+        width: 150px;
+    }
  }
+
+ @media screen and (min-width: 40em) {
+    #aboutInfo {
+        margin-bottom: 100px;
+    }
+
+    .aboutText {
+        font-size: 17px;
+    }
+
+    .icon {
+        width: 15%;
+        float: left;
+        margin-right: 40px;
+    }
+    #servPage {
+        padding: 40px;
+        padding-bottom: 60px;
+    }
+
+    #servPage h3 {
+        padding-top: 30px;
+        font-size: 20px;
+    }
+
+    #servPage p {
+        font-size: 15px;
+        margin-bottom: 70px;
+    }
+
+    .teamText {
+        font-size: 17px;
+        padding-left: 20px;
+    }
+
+    .teamHead {
+        padding-left: 20px;
+    }
+
+    #teamDesc {
+        height: 870px;
+    }
+}
+
+@media screen and (min-width: 50em) {
+    #servPage p {
+        font-size: 15px;
+        margin-bottom: 100px;
+    }
+    
+    #teamDesc {
+    text-align: center;
+    }
+
+    .teamImg {
+       text-align: center;
+        width: 300px;
+        margin-left: 20px;
+        padding-bottom: 40px;
+    }
+}
