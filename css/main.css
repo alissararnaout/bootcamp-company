@@ -228,21 +228,28 @@ footer {
     #teamDesc {
         margin: 0 auto;
         border-style: none;
+        margin-bottom: 20px;
     }
 
     .teamImg {
         width: 50%;
         float: left;
         background: white;
+        padding-bottom: 35px;
     }
 
-
     #folioPage {
-        padding: 20px;
+        margin-top: 400px;
+        height: 400px;
+        padding-top: 120px;
     }
 
     #folioPage h3 {
         font-size: 20px;
+    }
+
+    #folioPage img {
+        width: 75%;
     }
 
     #contactPage {
