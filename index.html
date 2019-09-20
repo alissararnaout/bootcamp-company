@@ -46,14 +46,41 @@
         <h2>hatching your ideas</h2>
       </div>
 
-      <div class="row" id="about">
-          <h2 class="hide">About Section</h2>
-        <video autostart="false" width="340" controls>
-          <source src="video/render.mp4" type="video/mp4">
-        </video>
-        <img src="img/aboutHeading.svg">
-        <p>Hatch is your one-stop for all things design. We take your idea and help your baby grow through learning, strategizing, planning, designing, developing and feedback. We believe in emotional branding, implementation and results so with that in mind, our team designs for people first.</p>
-      </div>
+
+<!--Video section-->
+
+<div class="row" id="about">
+  <h2 class="hide">About Section</h2>
+    <div id="videoPanel" class="small-12 columns">
+     <video id="brandVideo" width="80%" poster="img/vidPoster2.jpg"> 
+         <source src="video/render.mp4" type="video/mp4">
+         <source src="video/render.ogg" type="video/ogg">
+           <source src="video/render.webm" type="video/webm">
+          Your browser sucks!
+     </video>
+     </div>
+         
+          
+  <!--control-->
+  <div id="video_controls_bar">
+    <button id="playpausebtn" class="bttns">
+      <img src="img/Play.png" id="playBtn" onclick="(this,'myVideo')">
+    </button>
+    <input id="seekslider" type="range" min="0" max="100" value="0" step="1" class="bttns">
+    <span id="curtimetext" class="bttns">00:00</span> / <span id="durtimetext" class="bttns">00:00</span>
+    <button id="mutebtn" class="bttns">
+        <img src="img/Speaker.png" id="speaker" onclick="(this,'myVideo')">
+    </button>
+    <button id="fullscreenbtn" class="bttns">
+      <img src="img/Fullscreen.png" id="fullSreen">
+    </button>
+  </div>
+          <img src="img/aboutHeading.svg">
+          <p>Hatch is your one-stop for all things design. We take your idea and help your baby grow through learning, strategizing, planning, designing, developing and feedback. We believe in emotional branding, implementation and results so with that in mind, our team designs for people first.</p> 
+</div>
+<!--Video ends-->
+
+
 
       <div class="row" id="services">
           <h2 class="hide">Services Section</h2>
