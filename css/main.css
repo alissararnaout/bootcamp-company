@@ -447,11 +447,68 @@ footer {
 }
 
 @media screen and (min-width: 50em) {
-    #servPage p {
-        font-size: 15px;
-        margin-bottom: 100px;
+    .aboutHead {
+        margin-left: 50px;
+        margin-right: 70px;
+        width: 240px;
+        height: 265px;
+    }
+
+    #aboutInfo {
+        margin-right: 90px;
+    }
+
+    .aboutText {
+        font-size: 19px;
+    }
+
+    .servHead {
+        width: 240px;
+        height: 265px;
     }
     
+
+    .icon {
+        margin-left: 150px;
+        margin-right: 70px;
+    }
+
+    .product {
+        margin-bottom: 150px;
+    }
+    
+
+    #servPage h3 {
+        font-size: 25px;
+        font-weight: bold;
+        padding-top: 25px;
+
+    }
+
+    #servPage p {
+        font-size: 20px;
+        padding-right: 70px;
+
+    }
+    
+    #teamInfo {
+        padding-top: 70px;
+        margin-bottom: 200px;
+    }
+
+    .teamHead {
+        width: 240px;
+        height: 265px;
+        margin-right: 70px;
+    }
+
+    .teamText {
+        font-size: 20px;
+        padding-left: 100px;
+        padding-right: 70px;
+        padding-top: 100px;
+    }
+
     #teamDesc {
     text-align: center;
     }
@@ -461,5 +518,76 @@ footer {
         width: 300px;
         margin-left: 20px;
         padding-bottom: 40px;
+    }
+
+    #folioPage h3 {
+        font-size: 35px;
+        margin-top: 30px;
+    }
+    .contactHead {
+        width: 240px;
+        height: 265px;
+        margin-top: 70px;
+    }
+
+    #contactPage h3 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 64em) {
+    #splashPage h2 {
+        font-size: 50px;
+    }
+
+    video {
+        width: 90%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    #aboutInfo {
+        padding: 100px;
+    }
+    .aboutText {
+        padding-top: 50px;
+        font-size: 23px;
+        padding-right: 70px;
+        padding-left: 50px;
+    }
+
+    #servPage {
+        padding: 100px;
+    }
+
+    .servHead {
+        width: 340px;
+        height: 365px;
+    }
+
+    #servPage h3 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    #teamInfo {
+        padding: 100px;
+    }
+
+    .teamText {
+        font-size: 23px;
+        padding-left: 100px;
+    }
+
+    #folioPage h3 {
+        font-size: 40px;
+    }
+
+    .contactHead {
+        margin-bottom: 50px;
+    }
+
+    #contactPage h3 {
+        font-size: 40px; 
     }
 }
