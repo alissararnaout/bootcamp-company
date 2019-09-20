@@ -49,10 +49,6 @@ body p, h3, h4, h5 {
 /*  ABOUT */
 
 /*  ABOUT - VIDEO */
-#aboutVid {
-    
-}
-
 video {
     width: 75%;
     margin: 0 auto;
@@ -80,7 +76,11 @@ video {
 }
 
 /*  TEAM */
-#teamPage {
+#teamInfo {
+    background: white;
+}
+
+#teamDesc {
     background: white;
 }
 
@@ -209,9 +209,10 @@ footer {
         margin-bottom: 50px;
     }
 
-    #teamPage {
+    #teamInfo {
         padding: 20px;
         padding-top: 30px;
+        margin-bottom: 40px;
     }
 
     .teamHead {
@@ -224,8 +225,15 @@ footer {
         padding-top: 30px;
     }
 
+    #teamDesc {
+        margin: 0 auto;
+        border-style: none;
+    }
+
     .teamImg {
-        
+        width: 50%;
+        float: left;
+        background: white;
     }
 
 
@@ -322,7 +330,7 @@ footer {
 
     }
     
-    #teamPage {
+    #teamInfo {
         padding: 30px;
         margin-bottom: 100px;
     }
