@@ -168,3 +168,88 @@ footer {
     max-height: 100px;
     background-color: black;
 }
+
+/*   TEAM CSS  */
+
+#p1 {
+    background-color: #ffed40;
+    opacity: 1.0;
+  filter: alpha(opacity=50);
+  width:20%;
+}
+
+#p1 img {opacity: 0;
+    filter: alpha(opacity=50);
+}
+
+#p1 img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.pantoneBox {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#p2 {
+    background-color: #373737;
+    opacity: 1.0;
+  filter: alpha(opacity=50);
+  width:20%;
+}
+
+#p2 img {
+    opacity: 0;
+    filter: alpha(opacity=50);
+}
+
+#p2 img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+#p3 {
+    background-color: #F28907;
+    opacity: 1.0;
+  filter: alpha(opacity=50);
+  width:20%;
+}
+
+#p3 img {opacity: 0;
+    filter: alpha(opacity=50);
+}
+
+#p3 img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+#p4 {
+    background-color: #F2ed86;
+    opacity: 1.0;
+  filter: alpha(opacity=50);
+  width:20%;
+}
+
+#p4 img {opacity: 0;
+    filter: alpha(opacity=50);
+}
+
+#p4 img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
