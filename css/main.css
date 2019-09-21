@@ -108,11 +108,8 @@ header {
 /*  ABOUT */
 
 /*  ABOUT - VIDEO */
-/* video {
-    width: 75%;
-    margin: 0 auto;
-    display: block;
-} */
+
+
 
 /*  ABOUT - INFO */
 #aboutInfo {
@@ -205,6 +202,87 @@ label {
     color: black;
 }
 
+/*  CONTACT */
+.googlemap {
+    position: relative;
+    text-align: center;
+}
+
+.googlemap h3 {
+    color: #ff8100;
+    text-align: center;
+    font-weight: bold;
+}
+
+.map {
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+    filter: brightness(50%);
+    margin: 0px;
+    padding: 0px;
+}
+
+#contactPage {
+
+    z-index: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px !important;
+    
+}
+
+#contactPage iframe {
+    z-index: -1;
+}
+
+.contactHead {
+    margin: 0 auto;
+    display: block;
+}
+
+#contactPage h3 {
+    color: #ff8100;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*.googlemap {
+    background-image: url('');
+}
+*/
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:100%;
+    width: 375px;
+    z-index: -1;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width: inherit;
+}
+
+/*  CONTACT - FORM */
+.contactFormCont {
+
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+
 
 /* FOOTER */
 footer {
@@ -224,19 +302,15 @@ footer {
             margin-top: 5%;
             float: left;
         }
-    }
-
-/* video controls for mobile */
+        /* video controls for mobile */
 #video_controls_bar {
     background-color: white;
-    border: 2px solid #ff8100;
-    max-width: 70%; 
-    margin-left: 15%;
+    /* border: 2px solid #ff8100; */
+    max-width: 100%; 
   }
   
   .bttns {
-      max-width: 7%;
-      padding-top: 0;
+      max-width: 15%;
       cursor: pointer;
   }
   
@@ -258,6 +332,9 @@ footer {
   span {
       font-size: 8px;
   }
+    }
+
+
   
   /* video controls end */
 
@@ -525,7 +602,7 @@ footer {
 
       /* video controls for tablet */
     .bttns {
-        max-width: 7%;
+        max-width: 15%;
         padding-top: 0;
     }
     
@@ -688,9 +765,13 @@ footer {
     }
 
      /* video controls for desktop */
-.bttns {
-    max-width: 7%;
+/* .bttns {
+    max-width: 15%;
     padding-top: 0;
+} */
+
+#video_controls_bar {
+    text-align: center;
 }
 
 #seekslider {
@@ -703,7 +784,7 @@ footer {
 }
 
 span {
-    margin-bottom: 80%;
+    margin-bottom: 100%;
     text-align: center;
     font-size: 16px;
 }
