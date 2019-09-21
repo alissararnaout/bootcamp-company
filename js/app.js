@@ -83,4 +83,3 @@ function toggleFullScreen() {
         vid.mozRequestFullScreen ();
     }
   }
-
