@@ -48,11 +48,11 @@
                 <div id="main-menu"><!--Open Burger Menu-->
                   <ul id="menu">
                     <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">TEAM</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#servPage">SERVICES</a></li>
+                    <li><a href="#teamInfo">TEAM</a></li>
                     <li><a href="portfolio.html">PORTFOLIO</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#contactPage">CONTACT</a></li>
                   </ul>
                 </div><!--Close Burger Menu-->
               </nav>
@@ -64,7 +64,7 @@
     <div class="row" id="splashPage">
       <h2 class="hide">Splash Page</h2>
       <div class="small-12 medium-12 large-12 columns">
-        <img src="img/whiteLogo.svg" id="logo">
+        <a href="#"><img src="img/whiteLogo.svg" id="logo"></a>
         <h2>hatching your ideas</h2>
       </div>  
     </div>
@@ -89,12 +89,12 @@
       <img src="img/Play.png" id="playBtn" onclick="(this,'myVideo')">
     </button>
     <input id="seekslider" type="range" min="0" max="100" value="0" step="1" class="bttns">
-    <span id="curtimetext" class="bttns">00:00</span> / <span id="durtimetext" class="bttns">00:00</span>
+    <span id="curtimetext" class="bttns">00:00</span> / <span id="durtimetext" class="bttns">00:20</span>
     <button id="mutebtn" class="bttns">
         <img src="img/Speaker.png" id="speaker" onclick="(this,'myVideo')">
     </button>
     <button id="fullscreenbtn" class="bttns">
-      <img src="img/Fullscreen.png" id="fullSreen">
+      <img src="img/Fullscreen.png" id="fullScreen">
     </button>
   </div>
   
@@ -106,7 +106,7 @@
       <!--About Info Page--> 
       <div class="row" id="aboutInfo">
         <div class="small-3 medium-4 large-4 columns" >
-            <img src="img/heading_about.png" alt="About" class="aboutHead">
+            <a href="#"><img src="img/heading_about.png" alt="About" class="aboutHead"></a>
         </div>
 
         <div class="small-9 medium-8 large-8 columns">
@@ -157,22 +157,24 @@
       <!--Team Page--> 
       <div class="row" id="teamInfo">
           <div class="small-3 medium-4 large-4 columns">
-              <img src="img/teamHeading.svg" class="teamHead">
+              <a href="#"><img src="img/teamHeading.svg" class="teamHead"></a>
               </div>
         <div class="small-9 medium-8 large-8 columns" >
           <p class="teamText">Our tight-knit team includes strategists, illustrators, graphic designers, UI designers and developers who know what works and what doesn’t. We put soul into every creation.</p>
         </div>
       </div>
 
-
-        <div class="row" id="teamDesc">
-        <div class="small-12 medium-12 large-12 columns">
-            <img src="img/team_ryan_complete.png" alt="Ryan // Web Master" class="teamImg">
-            <img src="img/team_syrrel_complete.png" alt="Syrrel // Graphics & Illustrations" class="teamImg">
-            <img src="img/team_courtney_complete.png" alt="Courtney // Project Management" class="teamImg">
-            <img src="img/team_courtney_complete.png" alt="Alissar // Product & Branding" class="teamImg">
+      <div class="row" id="teamDesc">
+          <div class="small-12 medium-12 large-12 columns">
+              <img src="img/team_ryan_complete.png" alt="Ryan // Web Master" class="teamImg">
+              <img src="img/team_syrrel_complete.png" alt="Syrrel // Graphics & Illustrations" class="teamImg">
+              <img src="img/team_courtney_complete.png" alt="Courtney // Project Management" class="teamImg">
+              <img src="img/team_courtney_complete.png" alt="Alissar // Product & Branding" class="teamImg">
+          </div>
         </div>
-      </div>
+
+
+       
 
 
       <!--Portfolio Page--> 
@@ -232,22 +234,10 @@
        <div class="row googlemap" >
           <div class="small-12 medium-12 large-12">
             <div id="contactPage">
-                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.7377566674595!2d-81.2528406345238!3d42.98379752914996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef21b3ee98e51%3A0x243531a1cacd1219!2sFanshawe%20College%20-%20School%20of%20Digital%20and%20Performing%20Arts!5e0!3m2!1sen!2sca!4v1569002065241!5m2!1sen!2sca" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-               
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.7377566674595!2d-81.2528406345238!3d42.98379752914996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef21b3ee98e51%3A0x243531a1cacd1219!2sFanshawe%20College%20-%20School%20of%20Digital%20and%20Performing%20Arts!5e0!3m2!1sen!2sca!4v1569002065241!5m2!1sen!2sca" width="100%" height="800" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+     </div>
 
-
-            </div>
-           
-            <!--Map--> 
-            <!--<div class="mapouter">
-              <div class="gmap_canvas">
-                <iframe  width="600" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=130%20dundas%20street&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-              </div>
-            </div>--> 
-             <!--End Map-->
-
-            
-             
+          
          <div class="contactFormCont"> 
              <img src="img/heading_contact.png" class="contactHead">
                 <h3>put your eggs in our basket</h3>
@@ -287,24 +277,22 @@
           </div>
       </div>
 
-      <!-- <footer>
+       <footer>
         <div class="row" id="footer">
-          <div class="small "></div>
+          <div class="small-12 medium-12 large-12"></div>
 
-
-                <img src="img/socialFB.png" alt="Facebook">
-                <img src="img/socialTwitter.png" alt="Twitter">
-                <img src="img/socialIG.png" alt="Instagram">
+                <a href="wwww.twitter.com"><img src="img/socialTwitter.png" alt="Twitter"></a>
+                <a href="wwww.instagram.com"><img src="img/socialIG.png" alt="Instagram"></a>
             </div>
                 <p class="address">130 Dundas St,  London, ON N6A 1G2</p>
                 <p class="email"> hatchcreative@info.com</p>
-                <p class="number">(519) 000-0000</p>>
+                <p class="number">(519) 000-0000</p>
             </div>
               <p class="copyright"> © 2019 Hatch Creative. All Rights Reserved.</p>
             </div>
           </div>
         </div>
-        </footer> -->
+        </footer>
 
     
   </body>
